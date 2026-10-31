@@ -16,5 +16,13 @@ import 'vuetify/styles'
 export default createVuetify({
   theme: {
     defaultTheme: getInitialPreferences().theme,
+    themes: {
+      light: {
+        dark: false,
+        colors: {
+          surface: '#F5F7FA',
+        },
+      },
+    },
   },
 })
