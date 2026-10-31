@@ -13,6 +13,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     DynamicIcon: typeof import('./components/DynamicIcon.vue')['default']
     EmailsDialog: typeof import('./components/EmailsDialog.vue')['default']
+    PreferencesBar: typeof import('./components/PreferencesBar.vue')['default']
+    PricingSection: typeof import('./components/PricingSection.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
